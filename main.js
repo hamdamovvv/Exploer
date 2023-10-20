@@ -12,3 +12,5 @@ play.addEventListener('click', (e) => {
         music.pause()
     }
 })
+
+console.log("Hello world")
