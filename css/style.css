@@ -1,0 +1,232 @@
+.wrapper {
+    width: 100vw;
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.logo {
+    width: 176px;
+    margin: 0 auto;
+}
+
+ul {
+    width: 600px;
+    margin: 52px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style: none;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 400;
+}
+
+ul li:hover {
+    border-bottom: 2px solid white;
+}
+
+.luke_inner {
+    height: 330px;
+    background: url("../images/luke.png");
+    position: relative;
+}
+
+.travel {
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 25px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.travel h4 {
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.luke_cage {
+    position: absolute;
+    top: 160px;
+    left: 60px;
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.luke_name h3 {
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+}
+
+.luke_name p {
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.luke_text {
+    position: absolute;
+    top: 220px;
+    left: 60px;
+    width: 470px;
+}
+
+.luke_text h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+}
+
+.inner_white {
+    background: white;
+    padding: 36px 65px 44px;
+}
+
+.inner_white a {
+    text-decoration: none;
+    color: #8d4fdb;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.inner_white p {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    width: 664px;
+    color: #333333;
+}
+
+.inner_simpson {
+    height: 330px;
+    background: url("../images/simpson.png");
+    position: relative;
+}
+
+.jessica_name h3 {
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    width: 600px;
+}
+
+.jessica_name p {
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.inner_simpson .jessica_name {
+    margin-left: 15px;
+}
+
+.inner_another {
+    background: url("../images/mountains.png");
+    height: 330px;
+    position: relative;
+}
+
+.photo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 102px;
+    height: 25px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo h4 {
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.inner_grey {
+    background: #f1f1f1;
+    height: 211px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.inner_grey h2 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.inner_grey button {
+    width: 182px;
+    height: 45px;
+    background: #8d4fdb;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 21px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 30px;
+}
+
+.footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 28px;
+    color: #8b8b8b;
+}
+
+.footer a {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 28px;
+    color: #8d4fdb;
+    text-decoration: none;
+}
